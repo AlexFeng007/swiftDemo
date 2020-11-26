@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E202" minimumToolsVersion="Xcode 4.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="FKYCartProductMO" representedClassName="FKYCartProductMO" syncable="YES">
+        <attribute name="addSaleSize" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isSelected" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="leaveMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minSaleSize" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="monomerDrugstorePrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="policyPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="policyType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productProvider" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productStatus" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="productVender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="shopCartId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="supplyId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FKYCartProductPromoteMO" syncable="YES">
+        <attribute name="productId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="promoteDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="promoteId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="FKYCartProductUnitMO" syncable="YES">
+        <attribute name="productId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="cartProductMO" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FKYCartProductMO" syncable="YES"/>
+        <relationship name="cartProductPromoteMO" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FKYCartProductPromoteMO" syncable="YES"/>
+    </entity>
+    <entity name="FKYSearchHistoryMO" representedClassName="FKYSearchHistoryMO" syncable="YES">
+        <attribute name="addedDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venderid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FKYCartProductMO" positionX="-216" positionY="18" width="128" height="300"/>
+        <element name="FKYCartProductPromoteMO" positionX="-11" positionY="200" width="128" height="88"/>
+        <element name="FKYCartProductUnitMO" positionX="-29" positionY="45" width="128" height="88"/>
+        <element name="FKYSearchHistoryMO" positionX="-387" positionY="18" width="128" height="105"/>
+    </elements>
+</model>

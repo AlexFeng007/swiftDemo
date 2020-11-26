@@ -1,0 +1,7 @@
+{
+    "似乎已断开与互联网的连接。" : "网络不给力，请检查网络!",
+    "似乎已断开与互联网的连接"   : "网络不给力，请检查网络!",
+    "The operation couldn’t be completed. (NSURLErrorDomain error -1009.)" : "网络不给力，请检查网络!",
+    "The operation couldn’t be completed. (NSURLErrorDomain error -1001.)" : "网络不给力，请检查网络!",
+    
+}

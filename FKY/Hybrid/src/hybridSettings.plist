@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hybrid-prefix-userAgent</key>
+	<string>app_sdk</string>
+	<key>Hybrid-surfix-userAgent</key>
+	<string>_FKYIOS</string>
+	<key>Hybrid-bridge-scheme</key>
+	<string>gl</string>
+	<key>Hybrid-domain</key>
+	<string>.yaoex.com</string>
+	<key>Hybrid-redirectFileURL-Method</key>
+	<string>webView:redirectFileURLForNavigationAction:</string>
+	<key>Hybrid-allowURLSchemes</key>
+	<array>
+		<string>http</string>
+		<string>https</string>
+		<string>file</string>
+	</array>
+</dict>
+</plist>
